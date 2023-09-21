@@ -13,6 +13,12 @@
 		9F3CB8A12AB9953F0036C272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3CB89F2AB9953F0036C272 /* Main.storyboard */; };
 		9F3CB8A32AB995410036C272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3CB8A22AB995410036C272 /* Assets.xcassets */; };
 		9F3CB8A62AB995410036C272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3CB8A42AB995410036C272 /* LaunchScreen.storyboard */; };
+		9F3CB8AE2AB9C6090036C272 /* roundScoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3CB8AD2AB9C6090036C272 /* roundScoring.swift */; };
+		9F3CB8B12AB9F8E10036C272 /* success-fanfare-trumpets.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F3CB8AF2AB9F8E10036C272 /* success-fanfare-trumpets.mp3 */; };
+		9F3CB8B22AB9F8E10036C272 /* wrong-buzzer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F3CB8B02AB9F8E10036C272 /* wrong-buzzer.mp3 */; };
+		9F3CB8B52AB9F9130036C272 /* select-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F3CB8B32AB9F9130036C272 /* select-sound.mp3 */; };
+		9F3CB8B62AB9F9130036C272 /* shooting-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F3CB8B42AB9F9130036C272 /* shooting-sound.mp3 */; };
+		9F3CB8B82AB9FB8E0036C272 /* negative.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F3CB8B72AB9FB8E0036C272 /* negative.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		9F3CB8A22AB995410036C272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F3CB8A52AB995410036C272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F3CB8A72AB995410036C272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3CB8AD2AB9C6090036C272 /* roundScoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundScoring.swift; sourceTree = "<group>"; };
+		9F3CB8AF2AB9F8E10036C272 /* success-fanfare-trumpets.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "success-fanfare-trumpets.mp3"; sourceTree = "<group>"; };
+		9F3CB8B02AB9F8E10036C272 /* wrong-buzzer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "wrong-buzzer.mp3"; sourceTree = "<group>"; };
+		9F3CB8B32AB9F9130036C272 /* select-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "select-sound.mp3"; sourceTree = "<group>"; };
+		9F3CB8B42AB9F9130036C272 /* shooting-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shooting-sound.mp3"; sourceTree = "<group>"; };
+		9F3CB8B72AB9FB8E0036C272 /* negative.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = negative.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +72,15 @@
 				9F3CB89B2AB9953F0036C272 /* SceneDelegate.swift */,
 				9F3CB89D2AB9953F0036C272 /* ViewController.swift */,
 				9F3CB89F2AB9953F0036C272 /* Main.storyboard */,
+				9F3CB8AD2AB9C6090036C272 /* roundScoring.swift */,
 				9F3CB8A22AB995410036C272 /* Assets.xcassets */,
 				9F3CB8A42AB995410036C272 /* LaunchScreen.storyboard */,
 				9F3CB8A72AB995410036C272 /* Info.plist */,
+				9F3CB8AF2AB9F8E10036C272 /* success-fanfare-trumpets.mp3 */,
+				9F3CB8B02AB9F8E10036C272 /* wrong-buzzer.mp3 */,
+				9F3CB8B32AB9F9130036C272 /* select-sound.mp3 */,
+				9F3CB8B42AB9F9130036C272 /* shooting-sound.mp3 */,
+				9F3CB8B72AB9FB8E0036C272 /* negative.mp3 */,
 			);
 			path = "Guess Number";
 			sourceTree = "<group>";
@@ -125,9 +143,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3CB8B12AB9F8E10036C272 /* success-fanfare-trumpets.mp3 in Resources */,
 				9F3CB8A62AB995410036C272 /* LaunchScreen.storyboard in Resources */,
 				9F3CB8A32AB995410036C272 /* Assets.xcassets in Resources */,
+				9F3CB8B22AB9F8E10036C272 /* wrong-buzzer.mp3 in Resources */,
+				9F3CB8B52AB9F9130036C272 /* select-sound.mp3 in Resources */,
+				9F3CB8B82AB9FB8E0036C272 /* negative.mp3 in Resources */,
 				9F3CB8A12AB9953F0036C272 /* Main.storyboard in Resources */,
+				9F3CB8B62AB9F9130036C272 /* shooting-sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +163,7 @@
 			files = (
 				9F3CB89E2AB9953F0036C272 /* ViewController.swift in Sources */,
 				9F3CB89A2AB9953F0036C272 /* AppDelegate.swift in Sources */,
+				9F3CB8AE2AB9C6090036C272 /* roundScoring.swift in Sources */,
 				9F3CB89C2AB9953F0036C272 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +324,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +353,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
